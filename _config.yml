@@ -1,39 +1,39 @@
 
-# html lang
-language: zh-CN
+# html lang   # HTML lang
+language   语言: zh-CN   语言:应用
 
-# main menu navigation
-menu:
-  Home: index.html
-  Archives: archives
-  Tags: tags
-  Categories: categories
-  About: about
+# main menu navigation   #主菜单导航
+menu   菜单:
+  Home   首页: index.html   : index . html
+  Archives   档案: archives   档案:档案
+  Tags   标签: tags   标签:标签
+  Categories   类别: categories   类别:类别
+  About   关于: about   关于:
   Github: https://github.com/stiekel
 
-social:
+social   社会:
   GitHub: https://github.com/stiekel
-  Weibo: http://weibo.com/sidcn
-  M: histkc@gmail.com
+  Weibo   微博: http微博微博:http://weibo.com/sidcn:http://weibo.com/sidcn://weibo.com/sidcn
+  M   米: histkc@gmail.com
 
-# homepage article list size, 0 to hide list in homepage
+# homepage article list size, 0 to hide list in homepage#主页文章列表大小，0隐藏列表在主页
 homepageArticleCount: 3
 
-# Google analytics
-google_analytics: false
-# Baidu tongji
-baidu_analytics: false
+# Google analytics   #谷歌分析
+google_analytics: false   假
+# Baidu tongji   # 百度通记
+baidu_analytics: false   假
 # Disqus
 disqus_shortname:
 # Uyan
 uyan_id:
 # jiaThis id
-# if you want to change the style of jiaThis, please go to chage the following file:
-# theme/random/layouts/includes/jiathis.swig
+# if you want to change the style of jiaThis, please go to chage the following file:#如果您想更改jiaThis的样式，请转到更改以下文件:
+# theme/random/layouts/includes/jiathis.swig#主题/随机/布局包括/ jiathis.swig
 jiaThis_uid: 
 jiathisConfig:
-  data_track_clickback: true
-  summary: ""
+  data_track_clickback: true   真正的
+  summary   总结: ""   ＂＂
   showClose: true
   shortUrl: false
   hideMore: false
