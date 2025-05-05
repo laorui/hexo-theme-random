@@ -19,7 +19,6 @@ body
   display: flex;
   justify-content: center;
   align-content: center;
-  width: 100vw;
   height: 100vh;
   @media (max-width: mdDesktopWidth)
     font-size: 16px;
@@ -547,21 +546,24 @@ article img
 .random-toc-area
   position: fixed;
   width: 200px;
-  right: 0px;
-  top: 0px;
+  // right: 0px;
+  top: 50px;
+  left: calc(50vw - (960px / 2) - 220px);
   display: block;
   @media (max-width: lgDesktopWidth + 400px)
     display: none;
     
 .random-toc
   // top: 30px;
-  background: #444;
+  background: rgba(0, 0, 0, .6);
   color: #bbb;
-  height: 500px;
+  max-height: 500px;
+  padding: 4px;
   margin-top: 0px;
   font-size: 12px;
   height: 100%;
   overflow-y: auto;
+  border-radius: 0px 0px 6px 6px;
 .random-toc ol
   padding-left: 15px;
 .random-toc h2
@@ -573,19 +575,23 @@ article img
 .toc-text
   display: block;
 .toc-text:hover
-  background-color: #666;
+  background-color: rgba(255, 255, 255, .2);
+.toc-link:hover
+  text-decoration: none;
 .btn-hide-toc
-  // top: 0px;
   border: none;
+  border-radius: 6px 6px 0px 0px;
   z-index: 1;
   display: block;
   width: 100%;
   background-color: #666;
   height: 30px;
   color: #bbb;
+  cursor: pointer;
 .btn-hide-toc:hover
   background-color: #888;
-  
+.btn-hide-toc-show
+  border-radius: 6px;
 // code style
 figure.highlight
   margin: 0px -10px 0px -10px;
