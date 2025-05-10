@@ -1,81 +1,80 @@
+theme   主题: THEME-NAME
+# html lang   # HTML lang#html lang #html lang
+language   语言: zh-CN   语言:应用
 
-# html lang
-language: zh-CN
+# main menu navigation   #主菜单导航
+menu   菜单:
+  Home   首页: index.html   : index . html
+  Archives   档案: archives   档案:档案
+  Tags   标签: tags   标签:标签
+  Categories   类别: categories   类别:类别
+  About   关于: about   关于:
+  Github: https://github.com/laorui/xiaoloufengyue.io
 
-# main menu navigation
-menu:
-  Home: index.html
-  Archives: archives
-  Tags: tags
-  Categories: categories
-  About: about
-  Github: https://github.com/stiekel
+social   社会:
+  GitHub: https://github.com/laorui/xiaoloufengyue.io
+  Weibo   微博: http微博:https://www.weibo.com/u/1064087431
+  M   米: laorui_68@outlook.com 
 
-social:
-  GitHub: https://github.com/stiekel
-  Weibo: http://weibo.com/sidcn
-  M: histkc@gmail.com
+# homepage article list size, 0 to hide list in homepage#主页文章列表大小，0隐藏列表在主页
+homepageArticleCount: 20
 
-# homepage article list size, 0 to hide list in homepage
-homepageArticleCount: 3
-
-# Google analytics
-google_analytics: false
-# Baidu tongji
-baidu_analytics: false
+# Google analytics   #谷歌分析
+google_analytics: false   
+baidu_analytics: false   
 # Disqus
 disqus_shortname:
 # Uyan
 uyan_id:
 # jiaThis id
-# if you want to change the style of jiaThis, please go to chage the following file:
-# theme/random/layouts/includes/jiathis.swig
+# if you want to change the style of jiaThis, please go to chage the following file:#如果您想更改jiaThis的样式，请转到更改以下文件:
+# theme/random/layouts/includes/jiathis.swig#主题/随机/布局包括/ jiathis.swig
 jiaThis_uid: 
 jiathisConfig:
-  data_track_clickback: true
-  summary: ""
-  showClose: true
-  shortUrl: false
-  hideMore: false
+  data_track_clickback: true   真正的
+  summary   总结: ""   ＂＂
+  showClose: true   真正的
+  shortUrl: false   假
+  hideMore: false   假   hideMore: false   假hideMore: false   假
 
-# Valine comments https://valine.js.org
-valine:
-  enable: false # set true if you want to use
-  appId: #your leancloud appId
-  appKey: #your leancloud appKey
-  guest_info: nick,mail,link #valine comment header info
-  placeholder: # valine comment input placeholder(like: Please leave your footprints )
-  avatar: robohash # gravatar style https://valine.js.org/avatar
-  pageSize: 10 # comment list page size
-  verify: false # valine verify code (true/false)
-  notify: true # valine mail notify (true/false) 
-  lang: en
-  visit_analytics: true
+# Valine comments https://valine.js.org# Valine评论https://valine.js.org
+valine   缬氨酸:
+  enable :true 
+  appId: #your leancloud appId   #你的leancloud应用
+  appKey: #your leancloud appKey   #你的leancloud appKey
+  guest_info: nick,mail,link Guest_info: nick,mail,link #valine comment header info#valine comment header info#valine注释头信息
+  placeholder   占位符: # valine comment input placeholder(like: Please leave your footprints )# valine注释输入占位符(如:请留下您的足迹)
+  avatar   《阿凡达》: robohash 头像：Robohash # Gravatar Style https://valine.js.org/avatar# gravatar style https://valine.js.org/avatar
+  pageSize   页大小: 10 #评论列表页面大小# comment list page size#评论列表页面大小
+  verify   验证: false 验证:false # valine验证码(true/false)# valine verify code (true/false)# valine验证码(true/false)
+  notify   通知: true 通知:true # valine邮件通知(true/false)# valine mail notify (true/false) # valine邮件通知(true/false)
+  lang : en  
+  visit_analytics: true   
 
-# gitalk comments https://github.com/gitalk/gitalk
-gitalk:
-  enable: false
+# gitalk comments https://github.com/gitalk/gitalk# gitalk评论https://github.com/gitalk/gitalk
+gitalk   奇塔克:
+  enable   启用: false   假
   clientID: clientID
   clientSecret: clientSecret
-  repo: gitalk-comments
-  owner: github-username
+  repo: gitalk-comments   
+  owner   老板: github-laorui788   
 
 # Miscelaneous
-favicon: /hollow.ico
+favicon   的图标: /hollow.ico   标识:/ hollow.ico
 
 # stylesheets loaded in the <head>
-stylesheets:
-- /css/random.css
-- /css/vegas.min.css
-- /css/highlight-railscasts.css
-- /css/jquery.fancybox.css
-- /css/iconfont/iconfont.css
-- /css/jquery.fancybox-thumbs.css
-- /css/plyr.css
+stylesheets:   样式表:
+- /css/random.css   ——/ css / random.css
+- /css/vegas.min.css   ——/ css / vegas.min.css
+- /css/highlight-railscasts.css——/ css / highlight-railscasts.css——/ css/highlight-railscast .css——/ css/highlight-railscast .css——/ css/highlight-railscast .css/css/highlight-railscast .css——/ css/highlight-railscast .css——/ css/highlight-railscast .css——/ css/highlight-railscast .css/css/highlight-railscast .css——/ css/highlight-railscast .css——/ css/highlight-railscast .css——/ css/highlight-railscast .css/css/highlight-railscast .css/css/highlight-railscast .css——/ css/highlight-railscast .css- / css / highlight-railscasts.css——/ css / highlight-railscasts.css / css / highlight-railscast . css——/ css / highlight-railscast . css / css / highlight-railscast . css / css / highlight-railscast . css——/ css / highlight-railscast . css / css / highlight-railscast . css——/ css / highlight-railscast . css / css / highlight-railscast . css——/ css / highlight-railscast . css——/ css / highlight-railscast . css / css / highlight-railscast . css / css / highlight-railscast . css / css / highlight-railscast . css——/ css / highlight-railscast. css
+- /css/jquery.fancybox.css——/ css / jquery.fancybox.css
+- /css/iconfont/iconfont.css- / css / iconfont iconfont.css
+- /css/jquery.fancybox-thumbs.css——/ css / jquery.fancybox-thumbs.css—/ css/jquery.fancybox-thumbs.css——/ css/jquery.fancybox-thumbs.css- /css/jquery.fancybox-thumbs.css——/ css/jquery.fancybox-thumbs.css - /css/jquery.fancybox-thumbs.css- /css/jquery.fancybox-thumbs.css - /css/jquery.fancybox-thumbs.css - /css/jquery.fancybox-thumbs.css - /css/jquery.fancybox-thumbs.css - /css/jquery.fancybox-thumbs.css - /css/jquery.fancybox-thumbs.css
+- /css/plyr.css   ——/ css / plyr.css
 
-# scripts loaded in the end of the body
-scripts:
-- /js/jquery-3.6.4.min.js
+# scripts loaded in the end of the body# scripts加载在正文的末尾
+scripts:   脚本:
+- /js/jquery-3.6.4.min.jsjquery - / js / 3 .6.4.min.js
 - /js/vegas.min.js
 - /js/random.js
 - /js/highlight.pack.js
@@ -84,56 +83,57 @@ scripts:
 - /js/jquery.fancybox-thumbs.js
 - /js/plyr.js
 
-# ignore visitor statistics on special server, for example on you local computer or debugging server
-isIgnoreSpecialHostVisitor: true
+# ignore visitor statistics on special server, for example on you local computer or debugging server忽略特殊服务器上的访问者统计数据，例如本地计算机或调试服务器
+isIgnoreSpecialHostVisitor: trueisIgnoreSpecialHostVisitor:真
 ignoreHostList:
-  - localhost
+  - localhost   ——本地主机
   - 127.0.0.1
 
-# if you want to turn off the background images, pleaase set this value as true
+# if you want to turn off the background images, pleaase set this value as true#如果您想关闭背景图像，请将此值设置为true
 turnoffBackgroundImage: 
-  # home page
-  index: false
-  # arcihve / categories / tags
-  post_list: false
+     #首页# 
+  home page
+  index : false   
+  # archive / categories / tags# arcihve / categories / tags# archive / categories / tags# archive / categories / tags
+  post_list: false   
   # post and page
-  post: false
-# when you turn off backgrounds, you can set a background color.
-backgroundColor: 34495E
+  post: false   
+# when you turn off backgrounds, you can set a background color.#当你关闭背景时，你可以设置背景颜色。
+backgroundColor: 34495E   写成backgroundColor: 34495 e
  
-backgroundImages:
+backgroundImages   分辨率的:
   - https://unsplash.it/__width__/__height__?random&t=6&gravity=center
   - https://unsplash.it/__width__/__height__?random&t=6&gravity=center
   - https://unsplash.it/__width__/__height__?random&t=6&gravity=center
   - https://unsplash.it/__width__/__height__?random&t=6&gravity=center
   - https://unsplash.it/__width__/__height__?random&t=6&gravity=center
 vegasConfig:
-  # more about config http://vegas.jaysalvat.com/documentation/settings/
-  # animation: 'random'
-  # transition: 'swirlRight'
-  preload­Image: true
-  transition:
-    - slideLeft2
-    - slideRight2
-    - swirLeft
-    - swirRight
-    - flash
+  #更多关于配置http://vegas.jaysalvat.com/documentation/settings/# more about config http://vegas.jaysalvat.com/documentation/settings/
+  # animation: 'random'   # animation: ‘random’
+  # transition: ‘swirlRight’# transition: 'swirlRight'# transition: ‘swirlRight’
+  preload­Image   preload-Image: true   真正的
+  transition   过渡:
+    - slideLeft2   - 滑左2
+    - slideRight2   - 滑右 2
+    - swirLeft   ——swirLeft
+    - swirRight   ——swirRight
+    - flash   ——闪光
   animation­Duration: 100
-  timer: false
+  timer: true   假
   delay: 10000
-  shuffle: true
+  shuffle: true   真正的
   count: 12
 
 unsplashConfig:
-  # more about config on https://unsplash.it/
+  更多关于配置的信息，请访问https://unsplash.it/# more about config on https://unsplash.it/
   # blur: true
-  gravity: 'center' # north, east, south, west, center
+  gravity: 'center' 重力：‘center’ #北，东，南，西，中心# north, east, south, west, center
   # greyscale: true
 
-avatar: images/blog-avatar.png
+avatar: images/blog-avatar.png《阿凡达》:图像/博客-avatar.png
 
-# do not like fancybox, set this as false, this will turn it off
-fancybox: true
+# do not like fancybox, set this as false, this will turn it off#不喜欢fancybox，设置为false，这将关闭它
+fancybox: true   真正的
 
-# set the visibility of hide button in left bottom.
-hideButtonVisibility: true
+# set the visibility of hide button in left bottom.#设置隐藏按钮在左下角的可见性。
+hideButtonVisibility: true   真正的
